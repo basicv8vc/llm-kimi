@@ -1,7 +1,7 @@
 [project]
-name = "llm-minimax"
+name = "llm-kimi"
 version = "0.1"
-description = "LLM plugin for accessing MiniMax models via their API"
+description = "LLM plugin for accessing Kimi models via their Anthropics-compatible API"
 readme = "README.md"
 authors = [{name = "Simon Willison"}]
 license = "Apache-2.0"
@@ -20,13 +20,13 @@ build-backend = "setuptools.build_meta"
 llm-anthropic = { path = "../llm-anthropic", editable = true }
 
 [project.urls]
-Homepage = "https://github.com/simonw/llm-minimax"
-Changelog = "https://github.com/simonw/llm-minimax/releases"
-Issues = "https://github.com/simonw/llm-minimax/issues"
-CI = "https://github.com/simonw/llm-minimax/actions"
+Homepage = "https://github.com/basicv8vc/llm-kimi"
+Changelog = "https://github.com/basicv8vc/llm-kimi/releases"
+Issues = "https://github.com/basicv8vc/llm-kimi/issues"
+CI = "https://github.com/basicv8vc/llm-kimi/actions"
 
 [project.entry-points.llm]
-minimax = "llm_minimax"
+kimi = "llm_kimi"
 
 [project.optional-dependencies]
 test = ["pytest"]
